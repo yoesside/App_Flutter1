@@ -20,6 +20,7 @@ class _MyAppState extends State<MyApp> {
       number = number + 1;
     });
   }
+  //Anjay
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +32,7 @@ class _MyAppState extends State<MyApp> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          //children: <Widget>[
+          children: <Widget>[
             Text(number.toString(), style: TextStyle(fontSize: number.toDouble()),),
             RaisedButton(
               child: Text("Tambah bilangan"),
